@@ -26,7 +26,7 @@ This is a Flutter mobile application that fetches and displays real-time cryptoc
 
 ### ✅ Bonus Features
 
-- Time interval selection (e.g., **1 month, 6 months, 1 year**) for better analysis.
+- Time interval selection (e.g., **1m 5m 15m 1h 1d 1month**) for better analysis.
 - **Push notifications** for significant price movements.
 
 ---
@@ -53,7 +53,7 @@ This is a Flutter mobile application that fetches and displays real-time cryptoc
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/crypto-tracker.git
+   git clone https://github.com/KapilKumar2002/crypto_price_tracker_task.git
    cd crypto-tracker
    ```
 2. **Install dependencies:**
@@ -77,4 +77,4 @@ Feel free to contribute or suggest improvements! 🚀
 
 ## 📹 Demo Video
 
-Watch the demo video here: [Video Link](https://your-video-link.com)
+Watch the demo video here: [Video Link](https://drive.google.com/file/d/1uogYuZHcrc1dLvCHSbMNKlI9d7LcBfyx/view?usp=sharing)
