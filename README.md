@@ -54,7 +54,6 @@ This is a Flutter mobile application that fetches and displays real-time cryptoc
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/KapilKumar2002/crypto_price_tracker_task.git
-   cd crypto-tracker
    ```
 2. **Install dependencies:**
    ```sh
