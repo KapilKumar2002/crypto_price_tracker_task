@@ -39,6 +39,7 @@ dependencies:
   fl_chart: ^0.70.2
   flutter_local_notifications: ^19.0.0
   flutter_riverpod: ^2.6.1
+  intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:

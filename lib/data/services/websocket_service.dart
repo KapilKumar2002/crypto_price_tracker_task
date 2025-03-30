@@ -1,12 +1,14 @@
 import 'dart:convert';
 import 'package:web_socket_channel/web_socket_channel.dart';
 
+import '../../config/constants/api_endpoints.dart';
+
 class WebSocketService {
   WebSocketChannel? _channel;
 
   Stream<double> connect(String symbol) {
     _channel = WebSocketChannel.connect(
-        Uri.parse('wss://stream.binance.com:9443/ws/${symbol.toLowerCase()}@trade'));
+        Uri.parse('${ApiEndpoints.baseEndPoint}${symbol.toLowerCase()}@trade'));
 
     return _channel!.stream.map((event) {
       final data = json.decode(event);

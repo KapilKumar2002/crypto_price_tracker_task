@@ -4,7 +4,6 @@ import 'package:learn_websocket_crypto/presentation/screens/home_screen.dart';
 
 import 'core/utils/notification_service.dart';
 
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await NotificationService.init();
@@ -18,6 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Crypto Tracker',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.amber,
         scaffoldBackgroundColor: Colors.white,

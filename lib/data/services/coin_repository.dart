@@ -1,4 +1,3 @@
-import '../models/coin_model.dart';
 import 'binance_api_service.dart';
 import 'websocket_service.dart';
 
