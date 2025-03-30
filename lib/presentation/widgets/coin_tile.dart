@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:learn_websocket_crypto/config/constants/api_endpoints.dart';
 
 import '../providers/coin_provider.dart';
 
@@ -10,13 +11,13 @@ class CoinTile extends ConsumerWidget {
   const CoinTile({super.key, required this.symbol, required this.onTap});
 
   String getCoinImage(String symbol) {
-    final baseUrl = "https://assets.coingecko.com/coins/images/";
     final coinImages = {
       "BTCUSDT": "1/large/bitcoin.png",
       "ETHUSDT": "279/large/ethereum.png",
       "BNBUSDT": "825/large/binance-coin-logo.png",
     };
-    return baseUrl + (coinImages[symbol] ?? "placeholder.png");
+    return ApiEndpoints.baseImageUrl +
+        (coinImages[symbol] ?? "placeholder.png");
   }
 
   @override
